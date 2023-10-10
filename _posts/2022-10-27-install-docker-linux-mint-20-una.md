@@ -3,6 +3,8 @@ title: Installing Docker on Linux Mint 20.x / Ubuntu (Jammy 22.04 / Impish 21.10
 layout: post
 tags:
   - Docker
+  - Ubuntu
+  - Mint
 ---
 
 ## Uninstall old versions
@@ -19,16 +21,19 @@ I prefer setting up Docker’s repository and install from that source for ease 
 
 1. Update the apt package index
 
-    sudo apt-get update
+
+		sudo apt-get update
 
 2. Install required packages
 
-    sudo apt-get install ca-certificates curl gnupg lsb-release
+
+		sudo apt-get install ca-certificates curl gnupg lsb-release
 
 3. Add Docker’s official GPG key
 
-    sudo mkdir -p /etc/apt/keyrings
-    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+
+		sudo mkdir -p /etc/apt/keyrings
+		curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 
 4. Set up the repository
 
@@ -47,8 +52,8 @@ The Linux Mint 20.x is based on Ubuntu focal & we have to use it as source.
 
 1. Update the apt package index
 
-    sudo apt-get update
+		sudo apt-get update
 
 2. Install the latest version of Docker Engine, containerd, and Docker Compose.
 
-    sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+		sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
