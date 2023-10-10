@@ -9,12 +9,6 @@ sitemap:
 
 <article class="archive" itemscope itemtype="http://schema.org/CreativeWork">
 
-<form method="GET" class="search-form" action="https://duckduckgo.com/" role="search" name="search-form" style="margin: 3rem 0">
-<input type="text" name="q" placeholder="To search, type your query & hit enter button!" style="width: 100%; padding: 10px; border: 1px solid #23527c; border-radius: 5px;">
-<input type="hidden" name="sites" value="sarathlal.com"/>
-</form>
-	
-
   {% for post in site.posts %}
     {% unless post.category == "portfolio" %}
 
