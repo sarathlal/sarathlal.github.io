@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/CreativeWork">
+    <h1 class="entry-title" itemprop="headline">{{ page.title }}</h1>
+    {{ content }}
+  <h3>Recent Posts</h3>
+		  <ol>
+  {% for post in site.related_posts limit:5 %}
+      <li><a href="{{ site.url }}{{ post.url | prepend: site.baseurl }}">
+        {{ post.title }}</a></li>
+  {% endfor %}
+  </ol>
+
+    <p class="entry-meta">
+      <span class="entry-time text-muted">This article was published on <time class="entry-time" itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></span>
+    </p>
+    <hr>
+    <h3>Your Questions / Comments</h3>
+    <p class="after-post">If you found this article interesting, found errors, or just want to discuss about it, please <a href="{{site.baseurl}}/about/">get in touch</a>.</p>
+</article>
