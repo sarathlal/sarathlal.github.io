@@ -6,15 +6,15 @@ permalink: /about/
 
 Hey there!
 
-I'm Sarathlal N, a developer from Kerala, India. On this blog, I like to share short notes, cool code snippets, and random thoughts.
+I'm Sarathlal N, a developer from Kerala, India. This is my blog, where I like to share quick tips, interesting bits of code, and random thoughts.
 
-My goal is to share what I've learned and connect with awesome people like you.
+I want to share what I've learned and connect with great people like you.
 
 ### Contact
 
-Feel free to reach out with any suggestions or comments via email at <span id="my-email"></span>, and I'll get back to you ASAP.
+Feel free to reach out with any ideas or comments via email at <span id="my-email"></span>, and I'll reply as soon as I can.
 
-Let's also connect on [LinkedIn](https://www.linkedin.com/in/sarathlal-n/){:target="_blank" rel="noopener"} and explore some exciting opportunities together!.
+Let's connect on [LinkedIn](https://www.linkedin.com/in/sarathlal-n/){:target="_blank" rel="noopener"} and stay in touch!
 
 <script>
   var parts = ["hello", "sarathlal", "com", "&#46;", "&#64;"];
