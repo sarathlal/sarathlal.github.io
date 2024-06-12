@@ -27,27 +27,31 @@ You have to display the form in WordPress pages using proper hooks.
 
 ### JavaScript / jQuery
 
-    $('#sample_form').submit(function(e){
-        e.preventDefault();
-	    var formData = form.serializeArray();
-	    $.ajax({
-		    type: 'POST',
-		    url : ajaxurl, // `ajaxurl` only available in admin end
-		    data: formData,
-		    beforeSend : function(){
-			    // action before submit
-		    },
-		    success: function(response){
-			    // On success
-		    },
-		    error: function(jqXHR, textStatus, errorThrown){
-			    // On error
-		    },
-		    complete: function(jqXHR, textStatus){
-			    // On complete
-		    }
-	    });
-    });
+    <script type="text/javascript" >
+		(function($, window, document) {
+			$('#sample_form').submit(function(e){
+				e.preventDefault();
+				var formData = $(this).serializeArray();
+				$.ajax({
+					type: 'POST',
+					url : ajaxurl, // `ajaxurl` only available in admin end
+					data: formData,
+					beforeSend : function(){
+						// action before submit
+					},
+					success: function(response){
+						// On success
+					},
+					error: function(jqXHR, textStatus, errorThrown){
+						// On error
+					},
+					complete: function(jqXHR, textStatus){
+						// On complete
+					}
+				});
+			});
+		}(window.jQuery, window, document));
+    </script>
 
 ### PHP / WordPress
 
