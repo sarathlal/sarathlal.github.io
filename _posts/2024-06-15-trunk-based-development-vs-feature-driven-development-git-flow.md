@@ -2,6 +2,11 @@
 layout: post
 title:  Trunk-Based Development vs. Feature-Driven Development (Git Flow) - A Comprehensive Guide
 meta-description: Explore the differences between Trunk-Based Development and Feature-Driven Development (Git Flow). Learn when to use each strategy, their benefits, and potential pitfalls in this comprehensive guide for developers.
+tags:
+  - Project Management
+  - Agile
+  - Product Development
+  - Software Development
 ---
 
 ### Understanding Trunk-Based Development

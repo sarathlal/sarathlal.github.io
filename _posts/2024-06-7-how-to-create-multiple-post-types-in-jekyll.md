@@ -2,6 +2,8 @@
 layout: post
 title:  How to Create Multiple Post Types in Jekyll for Enhanced Content Management
 meta-description: Learn how to set up multiple post types in Jekyll to manage diverse content effectively. Step-by-step guide included for blogs, portfolios, and more.
+tags:
+  - jekyll
 ---
 
 Jekyll is a powerful static site generator, perfect for blogging and other web content. One of its strengths is the ability to handle multiple post types, making it ideal for diverse content needs such as blogs, portfolios, and documentation.

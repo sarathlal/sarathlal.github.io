@@ -227,10 +227,14 @@ Shows what revision and author last modified each line of a file.
 
 ### Create a Tag
 ```bash
-git tag -a v1.0 -m "Version 1.0"
+git tag -a 1.0 -m "Version 1.0"
 ```
 Creates a new tag.
 
+### Push a tag to remote
+```bash
+git push origin tag-name
+```
 ### List Tags
 ```bash
 git tag

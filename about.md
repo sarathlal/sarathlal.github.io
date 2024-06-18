@@ -6,7 +6,7 @@ permalink: /about/
 
 Hey there!
 
-I'm Sarathlal N, a developer from Kerala, India who loves solving problems. I've been doing this for 10 years and enjoy creating better solutions.
+I'm Sarathlal N, a developer from Kerala, India who loves solving problems. I've been doing this for 10 years and enjoy creating better solutions. Currently, I work at [Themehigh](https://www.themehigh.com){:target="_blank" rel="noopener"} as a Technical Lead.
 
 ### My Journey
 
@@ -43,7 +43,7 @@ These activities help me stay balanced and bring new ideas to my work.
 
 ### Let's Connect
 
-Looking for a developer who cares about your business? I'm available for remote and freelance work. Let's talk about how I can help.
+Looking for a developer who cares about your business? Now I'm available for remote and freelance work. Let's talk about how I can help.
 
 ### Contact
 
