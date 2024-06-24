@@ -6,44 +6,39 @@ permalink: /about/
 
 Hey there!
 
-I'm Sarathlal N, a developer from Kerala, India who loves solving problems. I've been doing this for 10 years and enjoy creating better solutions. Currently, I work at [Themehigh](https://www.themehigh.com){:target="_blank" rel="noopener"} as a Technical Lead.
-
-### My Journey
-
-I started coding because I was curious about how things work. Over time, I've learned a lot and worked on projects that I'm proud of.
+I’m Sarathlal N, a developer from Kerala, India, with a passion for solving problems. With over 10 years of experience, I enjoy creating better solutions and currently work as a Technical Lead at [Themehigh](https://www.themehigh.com){:target="_blank" rel="noopener"}.
 
 ### Why I Love What I Do
 
-I consider myself an average programmer, but I excel at finding answers quickly through searches and have recently mastered using AI tools. When I solve someone's problems using a computer and the internet, the dopamine rush I get from that moment is awesome. That feeling keeps me passionate about the field of the internet and computers.
+I consider myself an average programmer, but I excel at quickly finding answers through searches and have recently mastered using AI tools. The dopamine rush I get from solving problems using a computer and the internet keeps me passionate about this field.
 
 ### My Strengths
 
 - WordPress Theme Development
 - WordPress Plugin Development
+- WordPress Customization
 - Ecommerce Development with WooCommerce, Magento & Shopify
 - Automating Tasks
 - Cleaning Data
-- Performance Auditing & Optimization Tips for Web
+- Performance Auditing & Optimization for the Web
 - Using AI Tools for Development
 - Business Tools Integration
 - Technical Support
 
 ### Beyond Development
 
-Outside of development, I have experience in:
+Outside of development, I also enjoy:
 
-- Working in Canva to Create Posters
-- Photography
-- Ecommerce Photography
+- Creating Posters with Canva
+- Photography and Ecommerce Photography
 - Content Creation Using AI Tools
-- Gardening
-- Farming
+- Gardening and Farming
 
-These activities help me stay balanced and bring new ideas to my work.
+These activities help me stay balanced and inspire new ideas in my work.
 
-### Let's Connect
+### Let’s Connect
 
-Looking for a developer who cares about your business? Now I'm available for remote and freelance work. Let's talk about how I can help.
+Looking for a developer who cares about your business? I’m available for remote and freelance work. Let’s discuss how I can help.
 
 ### Contact
 
