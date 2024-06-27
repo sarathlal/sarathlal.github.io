@@ -8,10 +8,6 @@ Hey there!
 
 I’m Sarathlal N, a developer from Kerala, India, with a passion for solving problems. With over 10 years of experience, I enjoy creating better solutions and currently work as a Technical Lead at [Themehigh](https://www.themehigh.com){:target="_blank" rel="noopener"}.
 
-### Why I Love What I Do
-
-I consider myself an average programmer, but I excel at quickly finding answers through searches and have recently mastered using AI tools. The dopamine rush I get from solving problems using a computer and the internet keeps me passionate about this field.
-
 ### My Strengths
 
 - WordPress Theme Development
