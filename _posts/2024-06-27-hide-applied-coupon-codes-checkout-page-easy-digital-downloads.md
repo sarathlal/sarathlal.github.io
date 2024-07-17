@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  How to Hide Applied Coupon Codes on the Checkout Page in Easy Digital Downloads
-meta-description: Learn how to hide applied coupon codes on the checkout page in Easy Digital Downloads with a custom code snippet. Enhance user experience by keeping discounts discreet.
+description: Learn how to hide applied coupon codes on the checkout page in Easy Digital Downloads with a custom code snippet. Enhance user experience by keeping discounts discreet.
 tags:
   - WordPress
   - Easy Digital Download

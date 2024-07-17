@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Writing Effective User Stories - A Guide with Examples
-meta-description: Learn the basics of user stories in software development, understand their importance, and discover how to write beautiful and effective user stories with practical examples.
+description: Learn the basics of user stories in software development, understand their importance, and discover how to write beautiful and effective user stories with practical examples.
 tags:
   - Project Management
   - Agile

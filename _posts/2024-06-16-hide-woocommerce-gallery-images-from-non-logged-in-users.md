@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  How to Hide WooCommerce Gallery Images from Non-Logged-In Users
-meta-description: Learn how to hide WooCommerce gallery images from non-logged-in users on the single product page with this simple code snippet. Enhance your store's privacy and exclusivity.
+description: Learn how to hide WooCommerce gallery images from non-logged-in users on the single product page with this simple code snippet. Enhance your store's privacy and exclusivity.
 tags:
   - WordPress
   - WooCommerce

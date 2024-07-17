@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Creating Easy Digital Download Coupons Dynamically
-meta-description: Learn how to dynamically create Easy Digital Downloads (EDD) coupons with a 10-day expiry using custom PHP code. Enhance your promotional strategies with automated coupon creation on user registration.
+description: Learn how to dynamically create Easy Digital Downloads (EDD) coupons with a 10-day expiry using custom PHP code. Enhance your promotional strategies with automated coupon creation on user registration.
 tags:
   - WordPress
   - Easy Digital Download

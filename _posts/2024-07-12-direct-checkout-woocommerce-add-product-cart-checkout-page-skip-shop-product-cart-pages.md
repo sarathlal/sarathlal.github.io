@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Direct Checkout in WooCommerce - Add Product to Cart from Checkout Page & Skip Shop, Product, and Cart Pages
-meta-description: Streamline your WooCommerce checkout process by adding a product in to cart from the checkout page. Learn how to skip the shop, product, and cart pages for a direct checkout experience.
+description: Streamline your WooCommerce checkout process by adding a product in to cart from the checkout page. Learn how to skip the shop, product, and cart pages for a direct checkout experience.
 tags:
   - WordPress
   - WooCommerce

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  How to Add Custom Images to WooCommerce Product Gallery Using Filters
-meta-description: Learn how to dynamically add custom images to our WooCommerce product gallery using the `woocommerce_product_get_gallery_image_ids` filter. Enhance our product presentation and improve customer experience.
+description: Learn how to dynamically add custom images to our WooCommerce product gallery using the `woocommerce_product_get_gallery_image_ids` filter. Enhance our product presentation and improve customer experience.
 tags:
   - WordPress
   - WooCommerce

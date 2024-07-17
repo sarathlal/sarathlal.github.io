@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  How to Safely Enable SVG File Uploads in WordPress
-meta-description: Learn how to safely enable SVG file uploads in WordPress for administrator users. This guide includes step-by-step instructions and security tips to ensure your site remains secure while leveraging the benefits of SVG images.
+description: Learn how to safely enable SVG file uploads in WordPress for administrator users. This guide includes step-by-step instructions and security tips to ensure your site remains secure while leveraging the benefits of SVG images.
 tags:
   - WordPress
   - WP Code Snippets

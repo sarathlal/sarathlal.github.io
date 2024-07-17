@@ -5,7 +5,7 @@ tags:
   - GitHub
   - Git
   - Version control
-metadescription: Learn how to move uncommitted changes to a new branch in Git with this easy guide. Discover methods using stashing and committing to keep your development work organized and efficient.
+description: Learn how to move uncommitted changes to a new branch in Git with this easy guide. Discover methods using stashing and committing to keep your development work organized and efficient.
 --- 
 
 When working in Git, you might find yourself needing to move uncommitted changes from one branch to another. This guide explains how to do so using straightforward methods, ensuring your development process remains organized and your codebase stays clean.

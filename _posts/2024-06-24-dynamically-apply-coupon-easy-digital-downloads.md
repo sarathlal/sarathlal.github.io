@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Dynamically Apply a Coupon in Easy Digital Downloads After Adding an Item to the Cart
-meta-description: Learn how to automatically apply coupon codes in Easy Digital Downloads after adding specific items to the cart. Boost your sales and improve customer satisfaction with this simple code snippet.
+description: Learn how to automatically apply coupon codes in Easy Digital Downloads after adding specific items to the cart. Boost your sales and improve customer satisfaction with this simple code snippet.
 tags:
   - WordPress
   - Easy Digital Download

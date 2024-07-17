@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Dynamically Generating a Table of Contents in WordPress
-meta-description: Learn how to enhance your WordPress site's user experience by dynamically generating a table of contents. This guide provides step-by-step instructions on adding unique IDs to headings and creating an accessible navigation structure.
+description: Learn how to enhance your WordPress site's user experience by dynamically generating a table of contents. This guide provides step-by-step instructions on adding unique IDs to headings and creating an accessible navigation structure.
 tags:
   - WordPress
 ---

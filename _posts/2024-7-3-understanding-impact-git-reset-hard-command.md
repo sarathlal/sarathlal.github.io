@@ -5,7 +5,7 @@ tags:
   - GitHub
   - Git
   - Version control
-metadescription: Learn about the impact and potential issues of using the `git reset --hard` command in Git. Understand best practices to avoid data loss and ensure smooth collaboration.
+description: Learn about the impact and potential issues of using the `git reset --hard` command in Git. Understand best practices to avoid data loss and ensure smooth collaboration.
 --- 
 
 Git is a powerful tool that helps developers track changes and manage their code. One of the commands you might use in Git is `git reset --hard`. This command can be helpful, but it can also cause problems if not used carefully. In this blog post, we'll explain what `git reset --hard` does, the issues it can cause, and how to use it safely.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Enhance Your WordPress Site's Security by Removing the Version Number
-meta-description: Learn how to hide your WordPress version number from your site's frontend and feeds with a simple code snippet. Improve your site's security and professionalism with this easy guide.
+description: Learn how to hide your WordPress version number from your site's frontend and feeds with a simple code snippet. Improve your site's security and professionalism with this easy guide.
 tags:
   - WordPress
   - WP Code Snippets

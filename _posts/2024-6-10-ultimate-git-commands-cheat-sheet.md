@@ -5,7 +5,7 @@ tags:
   - GitHub
   - Git
   - Version control
-metadescription: A comprehensive Git cheat sheet covering essential commands for repository management, branching, merging, stashing, remote operations, file permissions, and more, complete with examples.
+description: A comprehensive Git cheat sheet covering essential commands for repository management, branching, merging, stashing, remote operations, file permissions, and more, complete with examples.
 --- 
 
 Git is an essential tool for version control in software development. This comprehensive Git commands cheat sheet provides detailed information, use cases, and examples to help you manage your repositories effectively.
