@@ -25,9 +25,7 @@ I’m Sarathlal N, a developer from Kerala, India, with a passion for solving pr
 
 Outside of development, I also enjoy:
 
-- Creating Posters with Canva
 - Photography and Ecommerce Photography
-- Content Creation Using AI Tools
 - Gardening and Farming
 
 These activities help me stay balanced and inspire new ideas in my work.
