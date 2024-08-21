@@ -6,7 +6,7 @@ permalink: /about/
 
 Hey there!
 
-I’m Sarathlal N, a developer from Kerala, India, with a passion for solving problems. With over 10 years of experience, I enjoy creating better solutions and currently work as a Technical Lead at [Themehigh](https://www.themehigh.com){:target="_blank" rel="noopener"}.
+I’m Sarathlal N, a developer from Kerala, India, with a passion for solving problems. With over 10 years of experience, I enjoy creating better solutions.
 
 ### My Strengths
 
@@ -17,7 +17,6 @@ I’m Sarathlal N, a developer from Kerala, India, with a passion for solving pr
 - Automating Tasks
 - Cleaning Data
 - Performance Auditing & Optimization for the Web
-- Using AI Tools for Development
 - Business Tools Integration
 - Technical Support
 
@@ -25,14 +24,10 @@ I’m Sarathlal N, a developer from Kerala, India, with a passion for solving pr
 
 Outside of development, I also enjoy:
 
-- Photography and Ecommerce Photography
+- Photography
 - Gardening and Farming
 
 These activities help me stay balanced and inspire new ideas in my work.
-
-### Let’s Connect
-
-Looking for a developer who cares about your business? I’m available for remote and freelance work. Let’s discuss how I can help.
 
 ### Contact
 
