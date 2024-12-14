@@ -8,7 +8,6 @@ permalink: /resume/
 **GitHub**: [https://github.com/sarathlal/](https://github.com/sarathlal/){:target="_blank" rel="noopener"}   
 **LinkedIn**: [https://www.linkedin.com/in/sarathlal-n/](https://www.linkedin.com/in/sarathlal-n/){:target="_blank" rel="noopener"}  
 **WordPress Profile**: [https://profiles.wordpress.org/sarathlal/](https://profiles.wordpress.org/sarathlal/){:target="_blank" rel="noopener"}  
-**Reddit**: [https://www.reddit.com/user/sarathlal_n/](https://www.reddit.com/user/sarathlal_n/){:target="_blank" rel="noopener"}  
 
 ## Professional Summary
 
@@ -24,13 +23,22 @@ Experienced WordPress and WooCommerce developer with over 11 years of crafting o
 
 ## Professional Experience
 
+### WordPress Developer | Self Employed | Hobby Projects
+_Sep 2024 – Present_
+
+- Developed a free plugin for multiple functionalities like disable WooCommerce payment methods, shipping methods & add checkout fee with conditions. Published on WordPress.org plugin repo. [https://wordpress.org/plugins/wc-toolkit/](https://wordpress.org/plugins/wc-toolkit/){:target="_blank" rel="noopener"}
+- Developed an event ticket booking plugin for WooCommerce for a business.
+- Handled few customization projects.
+- Developing a taxonomy tree based product filter plugin for WooCommerce as a customization project.
+- Developing a free product booking plugin for WooCommerce with date/date range/time/time range with booking limit.
+
 ### Senior WordPress Developer  
 **[Themehigh](https://www.themehigh.com/){:target="_blank" rel="noopener"}**  
 _Apr 2018 - Sep 2024_
 
 - Developed a License Manager plugin for Themehigh to replace WooCommerce License Manager, which was used until Themehigh.com migrated to EDD.
 - Worked on the development of the [WooCommerce Checkout Field Editor](https://wordpress.org/plugins/woo-checkout-field-editor-pro/){:target="_blank" rel="noopener"} (free and premium versions). Actively involved in decision-making to increase activations and reviews for the Checkout Field Editor with the team.
-- Developed [demo functionality](https://flydemos.com/){:target="_blank" rel="noopener"} to showcase Themehigh products, reducing over 300 hours of manual labor annually.
+- Developed [demo functionality](https://flydemos.com/){:target="_blank" rel="noopener"} to showcase Themehigh products that reduce more than 300 hours of manual labor annually.
 - Identified and optimized the first touchpoint of the customer journey, significantly improving sales.
 - Migrated Themehigh.com from WooCommerce to EDD, including custom license data and orders, using WP CLI and automation scripts.
 - Migrated documentation and blogs on Themehigh.com to multiple WordPress sites using automation scripts.
@@ -60,11 +68,10 @@ _May 2014 - Apr 2018_
 - **Languages**: PHP, JavaScript, HTML, CSS, Python
 - **Tools**: Linux, Git, Docker, Bash, Selenium, WP-CLI, GitHub actions, BitBucket pipelines, OpenAI Playground
 - **Platforms**: LAMP, WordPress, WooCommerce, Magento, Shopify, Flask, Django
-- **Frameworks**: Bootstrap, jQuery, Tailwind
+- **Frameworks**: Bootstrap, jQuery, Tailwind, React
 
 ## Hobbies & Interests
 
-- **Photography**: Interested in product photography & subject photography.
 - **Gardening & Farming**: Engages in sustainable gardening practices and enjoys growing organic produce.
 
 ## Contact
