@@ -260,8 +260,8 @@ Use `EXPLAIN` to verify index usage and adjust as needed.
 
 ---
 
-Indexing is a powerful tool for optimizing database performance, but it requires careful design and maintenance. By understanding the internal workings, types, and trade-offs, you can create indexes that strike the right balance between query speed and storage efficiency.
+Indexing is a powerful tool for optimizing database performance, but it requires careful design and maintenance. By understanding the internal workings, types, and trade-offs, we can create indexes that strike the right balance between query speed and storage efficiency.
 
-Ready to improve your database queries? Start analyzing your workloads and applying these indexing techniques today!
+Ready to improve the database queries? Start analyzing the workloads and applying these indexing techniques today!
 
 
