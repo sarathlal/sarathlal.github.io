@@ -1,0 +1,504 @@
+---
+layout: post
+title:  Automating Code Linting with GitHub Actions for WordPress Plugins
+description: Learn how to automate code linting for WordPress plugins using GitHub Actions. Set up workflows to lint PHP, JavaScript, and CSS files before merging feature branches into the main branch.
+tags:
+  - Code Quality
+  - Code Standard
+  - CI / CD Integrations
+  - GitHub Actions
+---
+
+# React Task Manager Tutorial Outline
+
+## Introduction
+1. Introduction to the tutorial and what we'll build
+2. Prerequisites (basic HTML, CSS, JavaScript knowledge)
+3. Setting up the development environment
+   - Installing Node.js and npm
+   - Creating a new React project with Vite
+   - Project structure overview
+   - Explanation of key files and folders
+
+## Part 1: React Fundamentals
+1. What is React and why use it?
+   - Component-based architecture
+   - Virtual DOM and its advantages
+   - JSX syntax explained
+2. Creating your first component
+   - Function components vs class components
+   - JSX syntax deep dive
+   - Rendering components
+3. Working with props
+   - Passing data to components
+   - Props validation with PropTypes
+   - Default props
+4. State management basics
+   - useState hook introduction
+   - Component state vs props
+   - State updates and re-rendering
+5. Handling events
+   - React event system
+   - Creating event handlers
+   - Passing event handlers as props
+
+## Part 2: Building the Task Manager UI
+1. Planning the application structure
+   - Component hierarchy
+   - Data flow planning
+2. Creating the basic UI components
+   - Header component
+   - Task form component
+   - Task list component
+   - Task item component
+3. Styling in React
+   - CSS options in React (CSS modules, styled-components, etc.)
+   - Implementing responsive design
+4. Forms and user input
+   - Controlled components
+   - Form submission
+   - Input validation
+
+## Part 3: Data Management
+1. Introduction to JSONPlaceholder API
+   - API overview and endpoints
+   - Making HTTP requests in React
+2. Fetching data with useEffect
+   - useEffect hook explained
+   - Dependency array
+   - Cleanup functions
+3. Implementing CRUD operations
+   - GET: Fetching tasks
+   - POST: Creating tasks
+   - PUT: Updating tasks
+   - DELETE: Removing tasks
+4. Loading states and error handling
+   - Conditional rendering
+   - Error boundaries
+   - User feedback for loading/errors
+
+## Part 4: Advanced React Concepts
+1. Context API
+   - Creating context
+   - Context Provider and Consumer
+   - useContext hook
+2. Custom hooks
+   - Creating reusable logic
+   - Rules of hooks
+   - Building a useTaskManager hook
+3. React Router
+   - Setting up routes
+   - Navigation and linking
+   - Route parameters
+   - Protected routes
+4. Performance optimization
+   - React.memo
+   - useMemo and useCallback
+   - Code splitting and lazy loading
+
+## Part 5: State Management with Redux
+1. Introduction to Redux
+   - Redux principles
+   - When to use Redux vs Context
+2. Setting up Redux
+   - Store setup
+   - Actions and reducers
+   - Redux DevTools
+3. Connecting Redux to React
+   - Using Redux hooks
+   - Dispatching actions
+   - Selectors
+
+## Part 6: Testing and Deployment
+1. Testing React components
+   - Unit testing with Vitest
+   - Writing test cases for components
+2. Building for production
+   - Optimizing the build
+   - Environment variables
+3. Deployment options
+   - Deploying to Netlify/Vercel
+   - GitHub Pages deployment
+
+## Part 7: Project Extensions and Final Thoughts
+1. Feature enhancements
+   - Task categories and filtering
+   - Task priority levels
+   - User authentication
+2. Best practices and common pitfalls
+3. Resources for further learning
+
+## Introduction
+
+Welcome to this comprehensive React tutorial! Whether you're just starting with React or looking to strengthen your skills, this guide will walk you through building a practical task management application from scratch. We'll cover everything from basic concepts to advanced implementations, with detailed explanations and code examples throughout.
+
+By the end of this tutorial, you'll have built a fully functional task manager application that allows users to:
+- Create new tasks
+- View a list of tasks
+- Mark tasks as complete
+- Delete tasks
+- Filter tasks by status
+- And much more as we add advanced features!
+
+The best way to learn React is by building something real, so let's dive straight in!
+
+### What We'll Build
+
+Our task manager will start simple and grow in complexity as we progress. Here's a glimpse of what our finished application will look like:
+
+```
++------------------------------------------+
+|              Task Manager                |
++------------------------------------------+
+| Create Task: [                ] [Add]    |
++------------------------------------------+
+| [ ] Learn React Basics                   |
+| [x] Create First Component               |
+| [ ] Master React Hooks                   |
+| [ ] Connect to API                       |
++------------------------------------------+
+| Filter: [All] [Active] [Completed]       |
++------------------------------------------+
+```
+
+### Prerequisites
+
+Before starting this tutorial, you should have:
+- Basic understanding of HTML, CSS, and JavaScript
+- Familiarity with ES6 features (arrow functions, destructuring, etc.)
+- Node.js and npm installed on your computer
+- A code editor (like VS Code, Sublime Text, or WebStorm)
+
+Don't worry if your JavaScript skills aren't perfect—I'll explain all the important concepts along the way!
+
+## Setting Up Your Development Environment
+
+### Installing Node.js and npm
+
+If you haven't already installed Node.js, download and install it from [nodejs.org](https://nodejs.org/). This will also install npm (Node Package Manager), which we'll use to manage our project dependencies.
+
+To verify your installation, open a terminal or command prompt and run:
+
+```bash
+node --version
+npm --version
+```
+
+You should see version numbers displayed for both commands.
+
+### Creating a New React Project with Vite
+
+We'll be using Vite to create our React application. Vite (French for "quick") is a modern build tool that offers a faster and leaner development experience compared to other tools.
+
+Open your terminal and run the following commands:
+
+```bash
+# Create a new project with Vite
+npm create vite@latest task-manager -- --template react
+
+# Navigate into the project directory
+cd task-manager
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+This will:
+1. Create a new project folder called "task-manager"
+2. Set it up with a React template
+3. Install all the necessary dependencies
+4. Start a development server
+
+After running these commands, you should see output indicating that your development server is running, typically at `http://localhost:5173`. Open this URL in your browser, and you'll see the default Vite React application.
+
+### Project Structure Overview
+
+Let's explore the project structure that Vite has created for us:
+
+```
+task-manager/
+├── node_modules/       # Where all installed packages are stored
+├── public/             # Static files that won't be processed by Vite
+├── src/                # Source code of your application
+│   ├── assets/         # Images, fonts, and other static assets
+│   ├── App.css         # Styles for the App component
+│   ├── App.jsx         # Main App component
+│   ├── index.css       # Global styles
+│   ├── main.jsx        # Entry point of the application
+├── .eslintrc.cjs       # ESLint configuration
+├── .gitignore          # Files to ignore in Git
+├── index.html          # Main HTML file
+├── package.json        # Project metadata and dependencies
+├── package-lock.json   # Locks dependency versions
+├── vite.config.js      # Vite configuration
+└── README.md           # Project documentation
+```
+
+Let's examine a few of the most important files:
+
+#### index.html
+
+This is the main HTML file that serves as the entry point for your application:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+```
+
+Notice the `<div id="root"></div>` element—this is where our React application will be rendered. The script tag loads our JavaScript entry point.
+
+#### src/main.jsx
+
+This is the JavaScript entry point for our application:
+
+```jsx
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
+```
+
+This code:
+1. Imports React and ReactDOM
+2. Imports our main `App` component
+3. Imports global styles
+4. Creates a React root at the `#root` element and renders our `App` component inside React's `StrictMode`
+
+#### src/App.jsx
+
+This is the main component of our application:
+
+```jsx
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <div>
+        <a href="https://vitejs.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <h1>Vite + React</h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+    </>
+  )
+}
+
+export default App
+```
+
+This default component:
+- Imports the `useState` hook from React
+- Imports logos and styles
+- Defines a component that maintains a count state
+- Renders a simple UI with logos, a counter, and some instructional text
+- Exports the component as the default export
+
+#### package.json
+
+This file contains metadata about our project and lists its dependencies:
+
+```json
+{
+  "name": "task-manager",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5"
+  }
+}
+```
+
+Key sections of this file include:
+- `scripts`: Commands you can run with npm (e.g., `npm run dev`)
+- `dependencies`: Packages your application needs to run in production
+- `devDependencies`: Packages needed only during development
+
+### Cleaning Up the Default Project
+
+Before we start building our task manager, let's clean up the default project to give us a clean slate:
+
+1. First, let's simplify our `App.jsx` file:
+
+```jsx
+import { useState } from 'react'
+import './App.css'
+
+function App() {
+  return (
+    <div className="app">
+      <h1>Task Manager</h1>
+      <p>Welcome to our task management application!</p>
+    </div>
+  )
+}
+
+export default App
+```
+
+2. Update the `App.css` file to contain just some basic styling:
+
+```css
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+```
+
+3. Update the title in `index.html`:
+
+```html
+<title>Task Manager</title>
+```
+
+After making these changes, your application should display a simple heading and welcome message.
+
+## React Fundamentals
+
+Now that we have our project set up, let's dive into React fundamentals to understand how React works and how we'll build our task manager.
+
+### What is React and Why Use It?
+
+React is a JavaScript library for building user interfaces, particularly single-page applications. It was developed by Facebook and has become one of the most popular front-end libraries in the world.
+
+#### Component-Based Architecture
+
+React is built around the concept of **components**. Components are reusable, self-contained pieces of code that return HTML via a render function. They're like building blocks that you can combine to create complex interfaces.
+
+Instead of separating technologies (HTML, CSS, JavaScript), React encourages separating concerns with components that contain all three. For example, a `TaskItem` component might contain:
+- HTML for structuring the item
+- CSS for styling it
+- JavaScript for handling interactions
+
+This makes each component easier to understand, test, and maintain.
+
+#### Virtual DOM and Its Advantages
+
+One of React's key innovations is the **Virtual DOM** (Document Object Model). Here's how it works:
+
+1. React creates a lightweight copy of the real DOM in memory (the Virtual DOM)
+2. When your data changes, React updates this Virtual DOM first
+3. React then compares the updated Virtual DOM with a snapshot taken right before the update
+4. React figures out which parts of the real DOM need to change
+5. React updates only those specific parts of the real DOM
+
+This approach is more efficient than directly manipulating the DOM for every change, which can be slow and resource-intensive, especially in complex applications.
+
+#### JSX Syntax Explained
+
+React uses JSX (JavaScript XML), which allows you to write HTML-like code directly in your JavaScript:
+
+```jsx
+const element = <h1>Hello, world!</h1>;
+```
+
+This isn't a string or HTML—it's JSX, a syntax extension for JavaScript. Behind the scenes, JSX is transformed into regular JavaScript function calls that create React elements.
+
+Here's what the above JSX compiles to:
+
+```javascript
+const element = React.createElement(
+  'h1',
+  null,
+  'Hello, world!'
+);
+```
+
+JSX makes your React code more readable and expressive, but it's ultimately just syntactic sugar for creating React elements.
+
+Some important JSX rules:
+- JSX elements must have a single root element (or use React Fragments `<>...</>`)
+- All tags must be closed (including self-closing tags like `<img />`)
+- JavaScript expressions can be inserted into JSX using curly braces `{}`
+- Attributes use camelCase (e.g., `className` instead of `class`, `onClick` instead of `onclick`)
+
+Here's an example showing these rules:
+
+```jsx
+function Greeting(props) {
+  const user = {
+    name: 'Sarah',
+    isAdmin: true
+  };
+  
+  return (
+    <div className="greeting-container">
+      <h1>{user.name}'s Dashboard</h1>
+      {user.isAdmin && (
+        <p className="admin-badge">Administrator</p>
+      )}
+      <button onClick={() => alert(`Hello, ${user.name}!`)}>
+        Greet
+      </button>
+    </div>
+  );
+}
+```
+
+In the next section, we'll start creating components for our task manager application, building on these fundamentals and exploring more React concepts along the way!
+
+
