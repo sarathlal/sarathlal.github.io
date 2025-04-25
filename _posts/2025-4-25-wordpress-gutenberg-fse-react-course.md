@@ -10,17 +10,17 @@ tags:
   - Gutenberg
 ---
 
-WordPress has changed a lot over the years. It’s no longer just about PHP templates and shortcodes. With the introduction of Gutenberg, block themes, Full Site Editing, and React, the way we build WordPress sites has evolved. And if you’ve been working with WordPress for a long time like I have, you’ve probably felt the gap growing between the old way of doing things and what’s considered modern today.
+WordPress has changed a lot over the years. It’s no longer just about PHP templates and shortcodes. With the introduction of Gutenberg, block themes, Full Site Editing (FSE), and React, the way we build WordPress sites has evolved. And if you’ve been working with WordPress for a long time like I have, you’ve probably felt the gap growing between the old way of doing things and what’s considered modern today.
 
-I’ve been a WordPress developer for over 11 years. I’m comfortable with building custom plugins, classic themes, and WooCommerce setups. But I realized I was missing some of the newer skills like block development, theme.json, Full Site Editing, and especially React.
+I’ve been a WordPress developer for over 11 years. I’m comfortable building custom plugins, classic themes, and WooCommerce setups. But I realized I was missing some of the newer skills like block development, theme.json, Full Site Editing, and especially React.
 
 So I decided to do something about it.
 
-I created a 28-day learning plan that helps developers like me get up to speed with everything modern in WordPress. I used AI tools every day as my learning assistant. Each day I focused on a small part of the modern WordPress stack, learned the theory, and applied it by building something practical.
+I created a 28-day learning plan to help developers like me get up to speed with everything modern in WordPress. I used AI tools every day as my learning assistant. Each day, I focused on a small part of the modern WordPress stack, learned the theory, and applied it by building something practical.
 
-This blog post contains the full 4-week plan, broken down into daily tasks. Each day includes clear prompts you can use directly with an AI tool, practical coding exercises, and instructions for when to upload your project code for continuation.
+If you’re trying to level up your WordPress skills and want a structured way to learn Gutenberg, React, FSE, and more, this plan is for you.
 
-If you're trying to level up your WordPress skills and want a structured way to learn Gutenberg, React, FSE, and more, this plan is for you.
+---
 
 ## What You’ll Learn
 
@@ -31,6 +31,22 @@ If you're trying to level up your WordPress skills and want a structured way to 
 - WooCommerce block integration
 - Testing Gutenberg blocks using Jest
 - Plugin architecture, performance, and packaging
+
+---
+
+## How to Use This Roadmap
+
+This blog post contains a complete 4-week plan, broken down into daily tasks. Each day includes clear prompts you can use directly with an AI tool, practical coding exercises, and instructions for when to upload your project code to continue building.
+
+I’m planning to start a new chat every day. At the beginning of each day, I’ll first share my learning requirement as a prompt to set the proper context.
+
+Here’s the base prompt I’ll be using at the start of each day:
+
+> Hi! I’m starting today’s learning session and I’m new to this topic, so I’d like to learn it in depth. Please explain things like you’re teaching a junior developer who’s just getting started. Keep the explanations clear and simple. When you share code, walk me through it step by step and explain how and why it works. If you create any new files or folders, let me know why you chose that name and where you placed it. And if something is important or often misunderstood, feel free to go deeper, even if I don’t ask.
+
+Only after setting the learning context, I will start asking the daily prompts.
+
+This method ensures a proper flow, keeps the AI focused on the right learning style, and helps achieve maximum depth of understanding.
 
 ---
 
