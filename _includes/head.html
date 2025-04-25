@@ -44,6 +44,11 @@
 	.cta-section {margin: 3rem 0;padding: 1rem 0;border-top: 4px dashed #ff7a7a;border-bottom: 4px dashed #ff7a7a;}
 	.cta-section a.btn{border: 1px solid #ababab;padding: 0.5rem 1.5rem;border-radius: 0.5rem;background-color: #ffffff; transition:all 0.3s ease;}
 	blockquote{border-left: 5px solid #e3e3e3;padding-left: 15px;margin-left: 10px;}
-	/* Custom end */
+	hr { box-sizing: content-box; height: 0; overflow: hidden; color: gray; border-width: 1px; border-style: inset; margin-block: 0.5em; margin-inline: auto; display: block; }
+	.content hr { display: none; }
+	.content hr + h2::before, .content hr + h3::before, .content hr + h4::before { content: ''; display: block; height: 3px; background-color: gray; margin-bottom: 1em; }
+	.content hr + h2::before { background-color: gray; }
+	.content hr + h3::before { background-color: #d9d9d9; }
+	.content hr + h4::before { background-color: #ededed; }
 	</style>	
 </head>
