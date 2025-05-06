@@ -4,75 +4,74 @@ title: Resume
 permalink: /resume/
 ---
 
-**Location**: Kerala, India  
-**GitHub**: [https://github.com/sarathlal/](https://github.com/sarathlal/){:target="_blank" rel="noopener"}   
-**LinkedIn**: [https://www.linkedin.com/in/sarathlal-n/](https://www.linkedin.com/in/sarathlal-n/){:target="_blank" rel="noopener"}  
-**WordPress Profile**: [https://profiles.wordpress.org/sarathlal/](https://profiles.wordpress.org/sarathlal/){:target="_blank" rel="noopener"}  
+**WordPress Developer - WooCommerce, Plugin & Theme Development, Customization**
+
+---
 
 ## Professional Summary
 
-Experienced WordPress and WooCommerce developer with over 11 years of crafting optimized solutions for diverse business needs. Proficient in WordPress plugin development, eCommerce solutions, and web performance optimization. Passionate about solving complex problems, automating tasks, and integrating business tools to enhance operational efficiency.
+Experienced WordPress and WooCommerce developer with 11+ years of hands-on experience. Specialized in plugin development, eCommerce solutions, performance optimization, and modern WordPress stack. Proven track record of delivering impactful projects and solving complex technical challenges.
 
-## Core Competencies
+---
 
-- **WordPress Development**: WordPress theme and plugin development, WordPress customization.
-- **Ecommerce Expertise**: WooCommerce, Magento, Shopify development.
-- **Web Optimization**: Performance auditing, optimization, and technical support.
-- **Automation & Data Management**: Automating repetitive tasks and cleaning data.
-- **Business Integration**: Integrating various tools to streamline business processes.
+## Skills & Tools
+
+**Languages & Frameworks:** PHP, JavaScript, Python, HTML, CSS, React, Flask, Django, jQuery, Tailwind, Bootstrap  
+**WordPress & eCommerce:** WordPress Theme Development, Plugin Development, WooCommerce Customization, Gutenberg (Block Development), Hosting & Server Management, Magento, Shopify (Beginner)  
+**Automation & DevOps:** WP-CLI, Docker, Bash, Selenium, Automation Scripting (Python, Bash)  
+**Version Control & CI/CD:** Git, SVN, GitHub Actions, Bitbucket Pipelines  
+**Code Standards & Linting:** PHP_CodeSniffer, ESLint, Stylelint  
+**Performance & Optimization:** Web Performance Auditing & Optimization, Linux Server Management  
+**Integrations & Business Tools:** API Integration, Payment Gateway Integration, CRM Integration, Business Workflow Automation
+
+---
 
 ## Professional Experience
 
-### WordPress Developer | Self Employed | Hobby Projects
-_Sep 2024 – Present_
+### Independent WordPress Developer
+**Sep 2024 – Present**
 
-- Developed a free plugin for multiple functionalities like disable WooCommerce payment methods, shipping methods & add checkout fee with conditions. Published on WordPress.org plugin repo. [https://wordpress.org/plugins/wc-toolkit/](https://wordpress.org/plugins/wc-toolkit/){:target="_blank" rel="noopener"}
-- Developed an event ticket booking plugin for WooCommerce for a business.
-- Handled few customization projects.
-- Developing a taxonomy tree based product filter plugin for WooCommerce as a customization project.
-- Developing a free product booking plugin for WooCommerce with date/date range/time/time range with booking limit.
+- Developing a custom booking plugin for WooCommerce using Gutenberg components, React, and REST API.
+- Built and launched a WordPress site using GeneratePress and Gutenberg blocks - [tinylab.dev](https://tinylab.dev){:target="_blank" rel="noopener"}.
+- Developed and launched WooCommerce store using Twenty Twenty-Five and Gutenberg blocks [pathayam.com](https://pathayam.com){:target="_blank" rel="noopener"}.
+- Developed and launched WooCommerce store using Storefront theme [leafymonk.com](https://leafymonk.com){:target="_blank" rel="noopener"}.
+- Published a free utility plugin (WC Toolkit) on WordPress.org [WC Toolkit](https://wordpress.org/plugins/wc-toolkit){:target="_blank" rel="noopener"}.
+- Created a custom event ticket booking plugin for WooCommerce.
+- Developed taxonomy-based product filter plugin for WooCommerce [WooCommerce Product Filter](https://test.bondtech.se/home/advice/solution-finder/){:target="_blank" rel="noopener"}.
+- Delivered various WooCommerce customization projects for clients.
 
-### Senior WordPress Developer  
-**[Themehigh](https://www.themehigh.com/){:target="_blank" rel="noopener"}**  
-_Apr 2018 - Sep 2024_
+### Senior WordPress Developer — Themehigh
+**Apr 2018 – Sep 2024**
 
-- Developed a License Manager plugin for Themehigh to replace WooCommerce License Manager, which was used until Themehigh.com migrated to EDD.
-- Worked on the development of the [WooCommerce Checkout Field Editor](https://wordpress.org/plugins/woo-checkout-field-editor-pro/){:target="_blank" rel="noopener"} (free and premium versions). Actively involved in decision-making to increase activations and reviews for the Checkout Field Editor with the team.
-- Developed [demo functionality](https://flydemos.com/){:target="_blank" rel="noopener"} to showcase Themehigh products that reduce more than 300 hours of manual labor annually.
-- Identified and optimized the first touchpoint of the customer journey, significantly improving sales.
-- Migrated Themehigh.com from WooCommerce to EDD, including custom license data and orders, using WP CLI and automation scripts.
-- Migrated documentation and blogs on Themehigh.com to multiple WordPress sites using automation scripts.
-- Developed a free product download plugin for [Bootstrapdash.com](https://www.bootstrapdash.com/){:target="_blank" rel="noopener"} by gathering the required details.
-- Developed several small plugins for internal and personal use.
-- Managed the release process for all of Themehigh’s free plugins on WordPress.org.
-- Acted as a resource for handling complex customer tickets related to Themehigh plugins and WooCommerce.
-- Initiated better technical approaches in new Themehigh products to enhance scalability and growth.
+- Initiated and implemented improved technical approaches (SaaS, Microservices) in new products to enhance scalability and growth.
+- Developed a Flask-based application to track WordPress plugin data using PostgreSQL, Celery, and Redis.
+- Built a [License Manager plugin](https://www.themehigh.com/product/license-manager-for-woocommerce/){:target="_blank" rel="noopener"} to replace WooCommerce License Manager before migrating Themehigh.com to EDD.
+- Contributed to the WooCommerce Checkout Field Editor ([free](https://wordpress.org/plugins/woo-checkout-field-editor-pro/){:target="_blank" rel="noopener"} and [premium](https://www.themehigh.com/product/woocommerce-checkout-field-editor-pro/){:target="_blank" rel="noopener"}), including feature development and strategies to increase activations and reviews.
+- Created a multisite cloning plugin used to showcase [Themehigh plugin demos](https://flydemos.com/){:target="_blank" rel="noopener"}, saving over 300 hours of manual work annually.
+- Migrated Themehigh.com from WooCommerce to EDD using WP-CLI, Python, and Bash, including license data and order history.
+- Migrated documentation and blogs to multiple WordPress sites using Python and Bash automation scripts.
+- Developed a product download plugin for [Bootstrapdash.com](https://www.bootstrapdash.com/){:target="_blank" rel="noopener"} to collect user information and allow free product downloads without creating WooCommerce orders.
+- Built various internal-use and personal-use WordPress plugins.
+- Managed release processes for all free plugins on WordPress.org, ensuring quality and timely updates.
+- Handled complex technical support tickets related to Themehigh plugins and WooCommerce.
 
-### WordPress Developer  
-**[Acodez](https://acodez.in/){:target="_blank" rel="noopener"}**  
-_May 2014 - Apr 2018_
+### WordPress Developer — Acodez
+**May 2014 – Apr 2018**
 
-- Built and maintained eCommerce websites using WooCommerce & Magento.
-- Developed WordPress custom themes for various clients by converting HTML to WordPress.
+- Built and maintained eCommerce websites using WooCommerce and Magento.
+- Developed custom WordPress themes from HTML designs.
+
+---
 
 ## Education
 
-- **Bachelor of Technology in Electronics & Communication**  
-  _Calicut University - 2007 – 2011 (Dropout)_
+**Diploma in Applied Electronics**  
+Model Polytechnic College, Vadakara (2003–2006)
 
-- **Diploma in Applied Electronics**  
-  _Model Polytechnic College Vadakara - 2003-2006_
+**Bachelor of Technology in Electronics & Communication (Incomplete)**  
+Calicut University (2007–2011)
 
-## Technical Skills
-
-- **Languages**: PHP, JavaScript, HTML, CSS, Python
-- **Tools**: Linux, Git, Docker, Bash, Selenium, WP-CLI, GitHub actions, BitBucket pipelines, OpenAI Playground
-- **Platforms**: LAMP, WordPress, WooCommerce, Magento, Shopify, Flask, Django
-- **Frameworks**: Bootstrap, jQuery, Tailwind, React
-
-## Hobbies & Interests
-
-- **Gardening & Farming**: Engages in sustainable gardening practices and enjoys growing organic produce.
+---
 
 ## Contact
 
