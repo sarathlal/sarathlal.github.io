@@ -4,19 +4,19 @@ title: Resume
 permalink: /resume/
 ---
 
-**WordPress Developer - WooCommerce, Plugin & Theme Development, Customization**
+**Software Developer - Python, PHP & Automations**
 
 ---
 
 ## Professional Summary
 
-Experienced WordPress and WooCommerce developer with 11+ years of hands-on experience. Specialized in plugin development, eCommerce solutions, performance optimization, and modern WordPress stack. Proven track record of delivering impactful projects and solving complex technical challenges.
+Senior Software Developer with 11+ years of experience building backend systems, APIs, automation tools, and scalable web applications. Extensive experience developing complex platforms and plugins on WordPress and WooCommerce, including licensing, large-scale data migrations, and high-traffic production environments. Strong hands-on background in Python (FastAPI, Flask), PHP, and JavaScript, with a proven ability to own end-to-end development and deliver reliable, business-critical software across multiple domains.
 
 ---
 
 ## Skills & Tools
 
-**Languages & Frameworks:** PHP, JavaScript, Python, HTML, CSS, React, Flask, Django, jQuery, Tailwind, Bootstrap  
+**Languages & Frameworks:** PHP, JavaScript, Python, HTML, CSS, React, Flask, FastAPI, Django, jQuery, Tailwind, Bootstrap  
 **WordPress & eCommerce:** WordPress Theme Development, Plugin Development, WooCommerce Customization, Gutenberg (Block Development), Hosting & Server Management, Magento, Shopify (Beginner)  
 **Automation & DevOps:** WP-CLI, Docker, Bash, Selenium, Automation Scripting (Python, Bash)  
 **Version Control & CI/CD:** Git, SVN, GitHub Actions, Bitbucket Pipelines  
@@ -28,19 +28,19 @@ Experienced WordPress and WooCommerce developer with 11+ years of hands-on exper
 
 ## Professional Experience
 
-### Independent WordPress Developer
+### Independent Developer
 **Sep 2024 – Present**
 
-- Developing a custom booking plugin for WooCommerce using Gutenberg components, React, and REST API.
-- Built and launched a WordPress site using GeneratePress and Gutenberg blocks - [tinylab.dev](https://tinylab.dev){:target="_blank" rel="noopener"}.
-- Developed and launched WooCommerce store using Twenty Twenty-Five and Gutenberg blocks [pathayam.com](https://pathayam.com){:target="_blank" rel="noopener"}.
-- Developed and launched WooCommerce store using Storefront theme [leafymonk.com](https://leafymonk.com){:target="_blank" rel="noopener"}.
-- Published a free utility plugin (WC Toolkit) on WordPress.org [WC Toolkit](https://wordpress.org/plugins/wc-toolkit){:target="_blank" rel="noopener"}.
-- Created a custom event ticket booking plugin for WooCommerce.
-- Developed taxonomy-based product filter plugin for WooCommerce [WooCommerce Product Filter](https://test.bondtech.se/home/advice/solution-finder/){:target="_blank" rel="noopener"}.
+- Designing and building a FastAPI-based system with OpenAI integrations to automate plan analysis and specification processing for a UK-based construction firm.
+- Architecting and developing a custom WooCommerce booking plugin using Gutenberg (React), REST API, and modern plugin architecture.
+- Developed and published [WC Toolkit](https://wordpress.org/plugins/wc-toolkit){:target="_blank" rel="noopener"}, a free utility plugin on WordPress.org, focused on improving WooCommerce admin workflows and productivity.
+- Built a custom event ticket booking system for WooCommerce, handling bookings, availability, and order integration.
+- Developed a taxonomy-based [WooCommerce Product Filter](https://test.bondtech.se/home/advice/solution-finder/){:target="_blank" rel="noopener"} and filtering plugin for WooCommerce, used as a solution finder for end users.
+- Delivered multiple WooCommerce customization projects, including custom checkout flows, product logic, and performance optimizations.
+- Built and launched multiple WordPress and WooCommerce websites using modern block-based themes and Gutenberg, including [rizfin.ie](https://rizfin.ie/){:target="_blank" rel="noopener"}, [tinylab.dev](https://tinylab.dev){:target="_blank" rel="noopener"}, [pathayam.com](https://pathayam.com){:target="_blank" rel="noopener"}, and [leafymonk.com](https://leafymonk.com){:target="_blank" rel="noopener"}.
 - Delivered various WooCommerce customization projects for clients.
 
-### Senior WordPress Developer — Themehigh
+### Senior Software Engineer — Themehigh / Zennode
 **Apr 2018 – Sep 2024**
 
 - Initiated and implemented improved technical approaches (SaaS, Microservices) in new products to enhance scalability and growth.
@@ -55,7 +55,7 @@ Experienced WordPress and WooCommerce developer with 11+ years of hands-on exper
 - Managed release processes for all free plugins on WordPress.org, ensuring quality and timely updates.
 - Handled complex technical support tickets related to Themehigh plugins and WooCommerce.
 
-### WordPress Developer — Acodez
+### Web Developer — Acodez
 **May 2014 – Apr 2018**
 
 - Built and maintained eCommerce websites using WooCommerce and Magento.
